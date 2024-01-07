@@ -1,0 +1,1738 @@
+body{
+    padding-left: -0px;
+    background-color: white;
+    font-family: inherit;
+}
+
+.head{
+    margin-top: -10px;
+   height: auto;
+   background-image: url(myimg/hero_section_bb.webp);
+   background-image: linear-gradient(90deg,#000180,#950d95);
+}
+.headmenu{
+    display: flex;
+    flex-direction: row;
+   
+}
+.headmenu .logo{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.headmenu .menubutton{
+    display: none;
+}
+.menu{
+    margin-left: 220px;
+    margin-top: 20px;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    background-color:white ;
+    border-radius: 15px ;
+    width: 810px;
+    height: 40px;
+}
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: darkblue;
+  border: none;
+  display: block;
+  text-align: center;
+  width: 116px;
+}
+.dropbtn a{
+    text-decoration: none;
+    color: darkblue;
+}
+.dropbtn a:hover{
+    color: white;
+}
+.dropbtn:active{
+    color: red;
+}
+.dropbtn {
+    background-color: white;
+    color: darkblue;
+}
+.dropbtn:first-child:hover{
+    background-color: purple;
+    color: white;
+}
+.dropdown button.dropbtn {
+    background-color: transparent;
+    color: darkblue;
+    border: none;
+    display: block;
+    text-align: center;
+    width: 119px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+  }
+  .dropdown button.dropbtn:hover{
+    background-color:darkblue ;
+    color: white;
+}
+.dropbtn:hover{
+    background-color:darkblue ;
+    color: white;
+    transition: 0.5s;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  font-size: 13px;
+  width: 130px;
+  z-index: 1;
+  margin-top: 0px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 13px 2px;
+  text-decoration: none;
+  display: block;
+  text-decoration: underline;
+  
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: transparent;
+color: darkblue;
+}
+
+
+
+
+.headcontainer{
+    background-image: url(myimg/hero_section_bb.webp);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 900px;
+    background-position-x: right;
+    display: flex;
+    flex-direction: row;
+
+}
+.wavebg img{
+    margin-top: -900px;
+    width: 100%;
+}
+.search input{
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 150px;
+}.headwrite button{
+    background-color: white;
+    width: 100px;
+    height: 50px;
+}
+.headh1{
+    color: white;
+    font-size: 50px;
+    margin-left: 40px;
+    padding-top: 70px;
+
+}
+.oline{
+    width: 130px;
+    height: 7px;
+    background-color: rgb(199, 132, 9);
+    margin-left: 40px;
+}
+.headp{
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.headslide{
+    margin-left: 120px;
+    margin-top: 100px;
+    margin-bottom: 180px;
+   
+
+}
+ img.mySlides{
+    border-radius: 20px;
+}
+span.slidecircle {
+    height:13px;
+    width:13px;
+    background-color: yellow;
+    border-radius: 50%;
+    padding:0
+}
+/*-------header1------*/
+.header1{
+    background-image: url(myimg/our_themaic_bbr.webp), url(myimg/our_themaic_bbl.webp);
+background-position: 800px, left top;
+background-repeat: no-repeat, no-repeat;
+background-size: 350px;
+}
+.header1 h3{
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+font-size: 40px;
+
+}
+.hline .ll{
+width: 300px;
+height: 1px;
+background-color: purple;
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: -20px;
+}
+.hline .sl{
+    width: 30px;
+    height: 2.5px;
+    background-color: goldenrod;
+    text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: -2px;
+border-radius: 10px;
+
+}
+.header1box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.header1box .twobox{
+    display: flex;
+    flex-direction: row;
+}
+.header1box .twobox .box{
+    width: 270px;
+    height: 270px;
+    background-color: rgb(214, 212, 208);
+    border-radius: 15px;
+    margin: 20px;
+    margin-top: 70px;
+}
+.header1box .twobox .box img{
+   width: auto;
+   margin: 6px;
+}
+.header1box .twobox .box p{
+    font-size: 13px;
+    text-align: center;
+    margin-top: -15px;
+}
+.ourwave img{
+    width: 100%;
+    margin-top: -3px;
+    opacity:100%;
+}
+/*------------header2---*/
+.header2{
+    background-image: linear-gradient(90deg,#950d95,#000180);
+    height: 918px;
+}
+.header2 h3{
+    color: white;
+}
+.hline2 .ll{
+    width: 200px;
+    height: 1px;
+    background-color: white;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    }
+    .hline2 .sl{
+        width: 30px;
+        height: 2.5px;
+        background-color: rgb(233, 124, 81);
+        text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2px;
+    border-radius: 10px;
+    
+    }
+    
+    .header2 .img {
+        text-align: center;
+        
+    }
+    .header2 .img img{
+        width: 250px;
+        margin-top: 30px;
+    }
+
+    #ourslider {
+        width:95%;
+        overflow-x: auto;
+        margin-left: 10px;
+    }
+    #ourslider::-webkit-scrollbar{
+        width: 0;
+    }
+    #ourslider ul {
+        list-style: none;
+       margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+    #ourslider ul li {
+        background-color: white;
+        border-radius: 15px;
+        width: 440px;
+        height: 200px;
+        margin: 18px;
+
+    }
+    #ourslider ul li img{
+        width: 370px;
+        height: 200px;
+        border-radius: 15px;
+
+        
+    }
+    .ourwave2 img{
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    /*----------header3----------*/
+    .header3 h3{
+        text-align: center;
+        color: darkblue;
+        font-size: 40px;
+
+    }
+    
+    .hline3 .ll{
+        width: 200px;
+        height: 1px;
+        background-color: purple;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -20px;
+        }
+        .hline3 .sl{
+            width: 30px;
+            height: 2.5px;
+            background-color: goldenrod;
+            text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2px;
+        border-radius: 10px;
+        
+        }
+.storycont{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+    .os2box .osbox, .osbox{
+        width: 360px;
+        height: auto;
+        border-radius: 15px;
+        margin: 20px;
+        overflow: hidden;
+        box-shadow: 0px 2px 3px 1.6px rgb(155, 154, 154);
+    }
+    .os2box{
+        display: flex;
+        flex-direction: row;
+    }
+    .os2box .osbox img, .osbox img{
+        width: 100%;
+        height: 200px;
+        
+
+    }
+    .os2box .osbox P, .osbox P{
+        margin-left: 20px;
+    }
+    .os2box .osbox P.date, .osbox P.date{
+        font-size: 13px;
+    }
+    .os2box .osbox P.word, .osbox P.word{
+
+    }
+    .os2box .osbox P.rm a, .osbox P.rm a{
+        font-size: 13px;
+        text-decoration: none;
+        color: red;
+
+    }
+    button.load{
+        background-color: darkblue;
+        width: 130px;
+        height: 40px;
+        border-radius: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+    .bt {
+text-align: center;
+margin-top: 10px;
+    }
+    button.load a{
+        color: white;
+        text-decoration: none;
+    }
+
+
+    .achivebox{
+        margin-top: 70px;
+    background-image: linear-gradient(90deg,#000180,#950d95);
+    height: 400px;
+    }
+    .achivebox i.fa-long-arrow-left {
+        font-stretch: 500px;
+        color: white;
+      }
+
+
+
+    .achivebox h3{
+        margin-top: 100px;
+        text-align: center;
+        color: white;
+        font-size: 40px;
+
+    }
+    .achcont{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .achcont img{
+      height: 200px;
+      margin-right: 100px;
+    }
+    .achcont .box{
+     text-align: center;
+     border-left: 4px solid white;
+     justify-content: center;
+     min-width: 300px;
+
+    }
+     .achcont .box p{
+        color: white;
+     }
+
+     /*-----------------contact us-------*/
+     .contact{
+        width: 100%;
+        height: 520px;
+        margin-bottom: 40px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        padding-top: 60px;
+        box-shadow: 2px 2px 2px 2px rgb(199, 197, 197);
+
+     }
+     .contact .leftbox{
+        width: 500px;
+        height: 500px;
+        background-image: linear-gradient(10deg,yellow,red);
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        margin-left: 50px;
+        
+    }
+    .contact .leftbox h3{
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        margin-top:200px ;
+    }
+    .hline4 .ll{
+        width: 240px;
+        height: 1px;
+        background-color: white;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -20px;
+        }
+        .hline4 .sl{
+            width: 30px;
+            height: 2.5px;
+            background-color: rgb(112, 53, 5);
+            text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2px;
+        border-radius: 10px;
+        
+        }
+    .contact .rightbox{
+        padding-top: 30px;
+        margin-left: 40px;
+    }
+    
+    .namebox input{
+        margin: 10px;
+        width: 305px;
+        height: 30px;
+        border-radius: 15px;
+        padding-left: 10px;
+    }
+    input.email{
+        margin: 10px;
+        width: 650px;
+        height: 30px;
+        border-radius: 15px;
+        padding-left: 10px;
+    }
+     .smbox{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        margin: 10px;
+        border-radius: 15px;
+     }
+     input.subject{
+        padding-left: 10px;
+        width: auto;
+        margin: 10px;
+        height: 40px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;       
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    input.message{
+        height: 200px;
+        padding-left: 10px;
+        width: auto;
+        border-radius: 15px;
+        border: none;
+
+
+    }
+    .submit button{
+        margin: 10px;
+        width: 670px;
+        height: 40px;
+        border-radius: 15px;
+        color: white;
+        background-image: linear-gradient(10deg,yellow,red);
+        border: none;
+    }
+    .submit button p img{
+        width: 30px;
+        height: 14px;
+    }
+
+    .donatebox{
+        background-image: linear-gradient(90deg,#000180,#950d95);
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 30px;
+    }
+    .donatebox .leftbox{
+        justify-content: center;
+        text-align: center;
+        width: 500px;
+        height: 500px;
+        margin: 60px;
+        padding-top: 40px;
+    }
+    .donatebox .leftbox img{
+        width: 300px;
+        height: 300px;
+    }
+    .donatebox .leftbox h3{
+        font-size: 32px;
+        color: white;
+    }
+    .donatebox .leftbox P{
+        color: white;
+    }
+    .donatebox .rightbox{
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        margin-left: 80px;
+    }
+    .formbox{
+        background-color: white;
+        border-radius: 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        overflow: hidden;
+        height: auto;
+    }
+    .inputfield h3{
+        color: rgb(165, 164, 164);
+    }
+    .inputfield input, .inputfield select{
+        width: 500px;
+        height: 40px;
+        margin-top: -20px;     
+        border-radius: 15px;
+        border: 2px solid rgb(109, 109, 109);
+    }
+    .btn-field{
+        width:333px;
+        display: flex;
+        border: 4px solid white;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-left: 120px;
+        margin-top: 100px;
+        margin-bottom: 30px
+    }
+
+    
+    .btn-field button{
+        height: 50px;
+        width: auto;
+        font-size: 20px;
+        padding: 6px;
+        border: none;
+        background: purple;
+        color: white;
+
+    }
+    .btn-field button.disable{
+        background-color: white;
+        color: darkblue;
+    }
+    
+    #form2{
+        margin-left: 80px;
+    }
+    .dsubmit{
+        text-align: center;
+    }
+    #form1 button, #form2 button{
+        width: auto;
+        background-color: darkblue;
+        color: white;
+        padding: 12px;
+        margin-top: 30px;
+        font-size: 25px;
+        border-radius: 15px;
+    }
+    
+    .socialbox{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: auto;
+      height: 50px;
+      background-color: rgb(96, 96, 219);
+    }
+    .socialbox h3{
+        color: white;
+        margin-right: 20px;
+    }
+    .socialbox i{
+        text-align: center;
+        font-size: 30px;
+        width: 30px;
+        height: 30px;
+        color: yellow;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+
+
+    .footerbox{
+        display: flex;
+        flex-direction: row;
+        padding-top: 90px;
+        padding: 60px;
+        background-color: rgb(11, 11, 119);
+    }
+    .foot1box .logo img{
+        width: 210px;
+        margin-top: 15px;
+    }
+     .foot1box .phone, .foot1box .loc{
+        margin-top: 20px;
+        font-size: 20px;
+        color: white;
+    }
+    .foot1box .ads{
+        margin-top: 20px;
+
+    }
+    .foot1box .ads a{
+        text-decoration: none;
+        color: white;
+ 
+    }
+
+    .arrow {
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+      }
+      
+      .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+      .foot2box{
+        display: block;
+        margin-left: 40px;
+        display: inline-block;
+        
+      }
+
+      .foot2box h3{
+         color: white;
+         margin-left: 39px;
+
+      }
+      .foot2box ul li {
+        list-style: none;
+        margin-top: 25px;
+    }
+      .foot2box ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+      }
+      .foot2box ul li a i{
+        margin-right: 10px;
+        color: white;
+      }
+
+      .foot3box{
+        margin-left: 60px;
+      }
+      .foot3box h2{
+        color: white;
+      }
+      .foot3box h3{
+        color: white;
+        font-size: 15px;
+        color: rgb(165, 162, 162);
+
+      }
+      .foot3box p{
+        color: white;
+        font-size: 20px;
+      }
+
+      .foot4box{
+        background-color: white;
+        border-radius: 20px;
+        width: 400px;
+        height: 170px;
+        padding: 10px;
+        padding-left: 20px;
+        margin-left: 80px;
+        margin-top: 20px;
+      }
+      .foot4box p{
+        font-size: 18px;
+      }
+      .inputb{
+        border: 1px solid rgb(126, 124, 124);
+        height: 30px;
+        border-radius: 15px;
+        padding: 5px;
+
+      }
+      .inputb input{
+        height: auto;
+        width: 310px;
+        border: none;
+        
+      }
+      .inputb button{
+        width: 70px;
+        height: 30px;
+        border-radius: 10px;
+        border: none;
+        background-image: linear-gradient(10deg, red, yellow);
+      }
+      .copyright{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: darkblue;
+        height: 40px;
+
+      }
+      .copyright .cp{
+        margin: 10px;
+        color: white;
+      }
+      .copyright .sd, .copyright .des{
+        margin: 10px;
+        padding-left: 10px;
+        border-left: 2px solid white;
+        color: white;
+      }
+
+
+
+/*--------------------------------------------------------PRODUCT CSS-----------------------------*/
+.pheadword{
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    padding-top: 80px;
+    border: 2px solid transparent;
+    background-image: url(myimg/hero_section_bb.webp);
+    background-repeat: no-repeat;
+    background-position-x: 800px;
+    background-position-y: 0px;
+background-size:700px;
+}
+.pheadword h2.h2{
+    color: white;
+    font-size: 40px;
+}
+.pheadword p.p{
+    font-size: 20px;
+    color: white;
+}
+h1.ph1{
+    color: white;
+    font-size: 45px;
+
+}
+p.pp{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+.pbox1, .pbox2{
+    display: flex;
+    flex-direction: row;
+   
+}
+.pbox1 img {
+    height: 360px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin: 50px;
+}
+.pbox1 .p, .pbox2 .p{
+    margin: 50px;
+    font-size: 20px;
+    color: rgb(131, 130, 130);
+}
+.pbox1 .p .h3, .pbox2 .p .h3{
+    color: black;
+    font-size: 25px;
+}
+
+/*---------------------------about us css--------------------------------------------------------*/
+
+.abth3, .okd{
+    justify-content:center;
+    text-align:center;
+}
+.abth3 h2{
+color:darkblue;
+}
+.abth3 p{
+color:purple;
+font-size:38px;
+}
+.abtimg{
+    margin:40px;
+    height:auto;
+}
+.oh, .ov, .om, .oob{
+    justify-content:center;
+    text-align:center;
+    padding:60px;
+}
+.oh p, .ov p, .om p, .oob p{
+    font-size:20px;
+}
+.om{
+    background-color:rgb(226, 166, 226);
+}
+.ov, .oob{
+       background-image: linear-gradient(90deg,#000180,#950d95);
+       color:white;
+
+}
+
+.okdbox{
+    padding:40px;
+    margin:50px;
+    background-color:rgb(226, 166, 226);
+        border-radius:20px;
+    display:flex;
+    flex-direction:row;
+}
+.okdbox .box{
+    background-color:white;
+    width:300px;
+    height:150px;
+    margin:10px;
+    padding:5px;
+    display:block;
+    border-radius:15px;
+
+    
+}
+
+body{
+font: montserrat;
+}
+
+
+.okdbox .box img{
+border: 2px solid red;
+width: 50px;
+height:50px;
+margin-left:-150px;
+}
+.okdbox .box p{
+    margin-left:-150px;
+
+}
+.bod{
+    margin-bottom:70px;
+    text-align:center;
+}
+.bod h2{
+    color:black;
+
+}
+.threebox{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.threebox .box{
+    width: 340px;
+height:110px;
+background-color:grey;
+margin:16px;
+border-radius:15px;
+padding-top: 200px;
+}
+.box .nbox{
+    margin-top: 50px;
+    width: auto;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: left;
+    padding: 0.3px;
+    padding-left: 13px;
+    background-color: rgb(240, 238, 237);
+}
+.box .nbox h2{
+    color: purple;
+    font-size: 20px;
+}
+.box .nbox p{
+    margin-top: -15px;
+    font-size: 12px;
+}
+.box .nbox h3{
+    color: goldenrod;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.abth3 .hwsline{
+    margin-left: 570px;
+    }
+    .oh .hwsline{
+        margin-left: 510px;
+        }
+.okd .hwsline{
+    margin-left: 570px;
+    }
+.bod .hwsline{
+margin-left: 570px;
+}
+/*---------what wee do css----------*/
+
+.hwsline .ll{
+     width: 200px;
+     height: 2px;
+     border-radius: 20px;
+     background-color: #f096f0;
+}
+.hwsline .sl{
+    text-align: center;
+    width: 25px;
+    height: 3px;
+    margin-left: 80px;
+    margin-top: -2.4px;
+    background-color: rgb(233, 124, 81);
+}
+.hwlline .sl{
+    text-align: center;
+    width: 25px;
+    height: 3px;
+    margin-left: 250px;
+    margin-top: -2.4px;
+    background-color: rgb(233, 124, 81);
+}
+.hwlline .ll{
+    width: 500px;
+    height: 2px;
+    border-radius: 20px;
+    background-color: #db66db;
+}
+.pbox2 img{
+    border-radius: 20px;
+}
+
+.fourbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fourbox .twocarbox{
+    display: flex;
+    flex-direction: row;
+}
+.boxcont{
+    height: 250px;
+    width: 280px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px  rgb(109, 109, 109);
+}
+.boxcont img{
+    height: 180px;
+    width: 280px;
+}
+.sub .p h1{
+    color: black;
+    font-size: 12px;
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+}
+.sub .scircle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid red;
+    margin: 10px;
+}
+.sub .p p{
+    font-size: 10px;
+    margin-top: -7px;
+}
+
+#extra{
+    display:none;
+}
+.carrercon{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.carrercon button{
+    color: white;
+    background-color: darkblue;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.volhead{
+    width: auto;
+    height: 300px;
+    border: 2px solid yellow;
+
+}
+.volbody{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.volbody h2{
+    font-size: 20px;
+    margin-top: -10px;
+}
+.volbody button{
+    color: white;
+    background-color: darkblue;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.volform{
+    width: auto;
+    margin: 40px;
+    border: 2px solid rgb(170, 170, 170);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+.volform .leftbox{
+    width: 700px;
+    border-right: 1px solid grey;
+    border-radius: 20px;
+    text-align: left;
+}
+.volform .rightbox {
+    margin-left: 50px;
+    text-align: left;
+}.volbody .hwsline{
+    margin-left: 570px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.volform .rightbox .areabox{
+    border-radius: 10px;
+    border: 1px solid rgb(167, 167, 167);
+}
+.volform .rightbox p{
+    font-size: 20px;
+
+}
+.inputbox{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.inputbox label{
+    display: flex;
+    flex-direction: row;
+}
+.inputbox2{
+    display: flex;
+    flex-direction: row;
+}
+
+.inputbox input{
+    height: 35px;
+    margin: 5px;
+}
+.inputbox select{
+    height: 40px;
+}
+.inputbox2 select{
+width: 309px;
+}
+.inputbox label{
+    margin: 5px;
+}
+.areabox ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.areabox ul li input{
+    margin: 10px;
+}
+.rightbox input.skill{
+    width: 430px;
+    height: 100px;
+}
+
+.rightbox input.about{
+    width: 430px;
+    height: 60px;
+}
+.osbox{
+    height: auto;
+    text-align: left;
+}
+
+
+.presscont{
+margin: 50px; 
+   justify-content: center;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.presscont button{
+    color: white;
+    background-color: darkblue;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.abtimg img{
+    width: 100%;
+}
+
+
+.annualhead{
+color:white;
+background-color: grey;
+justify-content: center;
+padding: 200px;
+padding-top: 90px;
+padding-bottom:80px;
+}
+.annualhead h2{
+    font-size:30px;
+}
+.annualhead p{
+    font-size:20px;
+}
+.annualhead .img{
+    display:flex;
+    flex-direction:row;
+}
+.annualhead .img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:2px solid blue;
+    margin: 10px;
+}
+.annualhead .img h1{
+    font-size: 23px;
+}
+.annualhead .img p{
+    font-size: 12px;
+    margin-top: 22px;
+    margin-left: 10px;
+}
+.annualbody{
+    justify-content: center;
+    text-align: center;
+}
+.annualbody button{
+    background-color: darkblue;
+    color: white;
+padding-left: 20px;
+padding-right: 20px; 
+padding-top: 5px;  
+padding-bottom: 5px;
+border-radius: 10px;  
+
+
+}
+.comment{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.comment h2{
+    font-size: 20px;
+}
+.comment .numcir p{
+    padding: 4px;
+    color: white;
+    font-size: 10px;
+    border-radius: 50%;
+    background-color: rgb(247, 125, 12);
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.comment .hwsline{
+    margin-top: 40px;
+    margin-left: -160px;
+}
+.commentbox{
+    margin-top: 40px;
+}
+.commentbox .box{
+    text-align: left;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid grey;
+}
+label{
+    display: flex;
+    flex-direction: row;
+
+}
+.as{
+    color: red;
+}
+.inputbox input.msg{
+    height: 150px;
+}
+input{
+    border-radius: 5px;
+    border:1px solid grey;
+}
+.inputbox input ::placeholder{
+    margin-top: 300px;
+}
+label .as{
+    color: red;
+}
+.comword{
+    margin-top: -20px;
+}
+.comword p.p1{
+    color: orange;
+    font-size: 10px;
+    margin-top: -10px;
+}
+
+.commentbox .box .circle1{
+    margin-right: 20px;
+    width: 80px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:rgb(191, 223, 50) ;
+}
+.commentbox .box .circle2{
+
+    margin-right: 20px;
+    width: 80px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:rgb(95, 230, 212) ;
+}
+.commentbox .box .circle3{
+    margin-right: 20px;
+    width: 80px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: purple;
+}
+
+.leavecombox{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 90px;
+}
+
+.innerhead{
+    padding: 50px;
+    background-color: grey;
+    color: white;
+    padding: 250px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+}
+.leavecombox .hwsline{
+    margin-top: 0px;
+    margin-left: 360px;
+}
+.innerhead h3{
+    font-size: 30px;
+}
+.innerbody{
+   padding: 250px;
+   margin-top: -200px;
+
+}
+.innerbody .p2{
+    color: red;
+    font-size: 12px;
+}
+
+
+.rated h2{
+
+}
+.ratecon{
+    display: flex;
+    flex-direction: row;
+}
+
+.rated .box .img, .rated .box2 .img{
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+    background-color: blue;
+    margin-left: 10px;
+}
+.rated .box2{
+    border-left: 2px solid grey;
+}
+.rated .box, .rated .box2{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+}
+.rated .box .word, .rated .box2 .word{
+    margin-left: 10px;
+}
+.rated .box .word p, .rated .box2 .word p{
+    color: red;
+    font-size: 12px;
+}
+.innercom{
+    justify-content: center;
+    text-align: center;
+    margin-top: -250px;
+}
+
+.innerchead{
+    width: 100%;
+    background-color: grey;
+    height: 300px;
+}
+.inercarbody{
+    padding: 300px;
+    padding-top: 50px;
+}
+.inercarbody h2{
+    font-size: 15px;
+}
+.inercarbody p{
+    font-size: 16px;
+}
+.inercarbody ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    color: purple;
+}
+
+
+
+
+
+
+@media ( max-width: 420px ){
+    body{
+        width: 100%;
+    }
+    .headmenu .logo{
+        margin-left: 10px;
+    }
+.headmenu .logo img{
+    width: 100px;
+}
+.headmenu .menu{
+    display: none;
+}
+.headcontainer{
+    flex-direction: column-reverse;
+}
+.headcontainer .headslide{
+    width: auto;
+    margin: 20px;
+}
+.headcontainer .headwrite{
+    margin-top: -150px;
+    margin-left: -20px;
+}
+.headcontainer .headwrite .search input{
+    width: 200px;
+    margin-left: 40px;
+}
+.headcontainer .headwrite .headh1{
+    margin-top: -40px;
+}
+.headcontainer .headwrite button{
+margin-bottom: 30px;
+margin-left: 40px;
+background-color: darkblue;
+border-radius: 15px;
+color: white;
+}
+.header1box{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.header1box .twobox{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.header1box .twobox .box{
+    text-align: center;
+    width: auto;
+    margin: 20px;
+}
+.header1box .twobox .box img{
+    width: auto;
+    margin: 10px;
+
+}
+
+.header2{
+    height: auto;
+}
+.header2 .ourwave2 img{
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+#ourslider{
+    margin-left: 10px;
+}
+#ourslider ul li {
+    margin-left: 60px;
+    width: auto;
+}
+#ourslider ul li img{
+    width: 300px;
+}
+#ourslider ul li :first-child{
+    margin-left: -70px;
+}
+.header3 h3{
+    font-size: 30px;
+}
+.os2box{
+    flex-direction: column;
+}
+.os2box .osbox{
+    margin-left: 20px;
+    width:auto;
+}
+.achivebox{
+    height: auto;
+    flex-direction: column;
+}
+.achcont {
+    flex-direction: column;
+}
+.achcont img{
+    width: 200px;
+    margin-left: 100px;
+}
+.achcont .box{
+    border-left: none;
+    border-bottom: 1px solid white;
+    width: auto;
+    margin: 20px;
+    margin-top: -50px;
+}
+.contact{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.contact .leftbox{
+    width: auto;
+    margin: 20px;
+    height: 300px;
+}
+.contact .leftbox h3{
+    margin-top: 100px;
+}
+
+.contact .rightbox{
+width: auto;
+margin: 20px;
+margin-top: -30px;
+text-align: center;
+}
+.contact .rightbox .namebox{
+    display: flex;
+    flex-direction: column;
+}
+.contact .rightbox .namebox input{
+    margin-left: 0px;
+    margin-right:0px;
+    width: auto;
+}
+.contact .rightbox input{
+    margin-left: 0px;
+    margin-right: -0px;
+width:100%;    
+}
+
+.contact .rightbox .smbox input{
+    width: auto;
+    margin: 10px;
+
+}
+.contact .rightbox .submit button{
+    width:200px;
+}
+.donatebox{
+    height: auto;
+    width: auto;
+    margin: 5px;
+    flex-direction: column;
+}
+.donatebox .lefttbox{
+    padding: 20px;
+width: auto;
+margin: 20px;
+margin-left: -30px;
+
+}
+.donatebox .leftbox img{
+    margin-left: -280px;
+}
+.donatebox .leftbox h3{
+    margin-left: 0px;
+    width: 300px;
+}
+.donatebox .leftbox p{
+    width: 300px;
+    margin-left: -10px;
+}
+.donatebox .rightbox{
+    width: auto;
+    margin: 10px;
+    padding: 4px;
+}
+.donatebox .rightbox .btn-field{
+    margin-left: 20px;
+    width: 300px;
+}
+.donatebox .rightbox .formbox{
+    width: auto;
+    margin: 1px;
+    padding-left: 10px;
+}
+.donatebox .rightbox .formbox #form1{
+    width: auto;
+    margin: 20px;
+}
+.donatebox .rightbox .formbox #form2{
+    width: auto;
+    margin: 40px;
+}
+.donatebox .rightbox .formbox #form1 .inputfield input{
+    width: 280px;
+    margin-left: 0px;
+
+}
+.donatebox .rightbox .formbox #form2 .inputfield input{
+    width: 280px;
+
+}
+.donatebox .rightbox .formbox #form2 .inputfield{
+    margin-left: 215px;
+}
+.donatebox .rightbox .formbox #form1 .inputfield{
+    margin-left: 10px;
+}
+.donatebox .rightbox .formbox #form2 .inputfield select{
+width: 280px;
+}
+.donatebox .rightbox .formbox .form1 .dsubmit{
+    margin-left: -700px;
+}
+.donatebox .rightbox .formbox #form2 .dsubmit{
+    margin-left: 200px;
+}
+.socialbox{
+    flex-direction: column;
+    height: auto;
+}
+.footerbox{
+    flex-direction: column;
+    padding-left: 15px;
+}
+.footerbox .foot1box {
+    margin-left: 10px;
+}
+.footerbox .foot2box {
+    margin-left: -5px;
+}.foot3box {
+    margin-left: -5px;
+}.foot4box {
+    margin-left: -5px;
+    width: 100%;
+    height: auto;
+    margin: 2px;
+}
+.foot4box .inputb input{
+    width: auto;
+}
+.foot4box .inputb button{
+margin-left: auto;
+margin-right: 10px;
+margin-top: 10px;}
+}
+
+.pbox1{
+    flex-direction: column;
+}
+
+.okdbox{
+    padding: 10px;
+    flex-direction: column;
+}
+.okdbox .box{
+    width: auto;
+}
+.bod .threebox{
+    flex-direction: column;
+    padding: 10px;
+}
+.pbox2{
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.pbox2 img{
+    width: auto;
+    margin: 30px;
+}
+.fourbox{
+    flex-direction: column;
+}
+
+.carrercon .fourbox .twocarbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    margin: 10px;
+    border: 2px solid red;
+}
+.carrercon .fourbox .twocarbox .boxcont{
+    width:auto;
+    margin-left: 40px;
+}
+.carrercon .fourbox .twocarbox .boxcont a.img{
+    width:190px;
+}
